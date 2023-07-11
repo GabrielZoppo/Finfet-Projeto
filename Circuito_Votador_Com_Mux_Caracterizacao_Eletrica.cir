@@ -18,6 +18,7 @@ Va a gnd pwl(0 0 4n 0 4.01n vdd 8n vdd)
 Vb b gnd pwl(0 0 2n 0 2.01n vdd 4n vdd 4.01n 0 6n 0 6.01n vdd 8n vdd)
 Vc c gnd pwl(0 0 1n 0 1.01n vdd 2n vdd 2.01n 0 3n 0 3.01n vdd 4n vdd 4.01n 0 5n 0 5.01n vdd 6n vdd 6.01n 0 7n 0 7.01n vdd 8n vdd)
 
+** declaração de subcircuitos necessários
 .SUBCKT INV in out vdd gnd
 M9  vdd in out vdd PMOS_RVT L=2e-08 NFIN=3
 M10 gnd in out gnd NMOS_RVT L=2e-08 NFIN=3 
