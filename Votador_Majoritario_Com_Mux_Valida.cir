@@ -44,7 +44,7 @@ X1 nout out      vdd gnd INV
 
 
 ** Descrição do circuito
-.subckt Votador_Majoritario_Com_Mux A B C OUT VDD GND
+.subckt Votador_Majoritario_Com_Mux A B C S VDD GND
 ** X = ~[(~A*~B) + (A*B)]
 X1 A           Inv_A VDD GND INV
 X2 B           Inv_B VDD GND INV
