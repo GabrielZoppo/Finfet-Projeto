@@ -18,6 +18,7 @@ Va  A 0 pulse(0 0.7 4n 0 0 4n 8n)
 Vb  B 0 pulse(0 0.7 2n 0 0 2n 4n)
 Vc  C 0 pulse(0 0.7 1n 0 0 1n 2n)
 
+** declaração de subcircuitos necessários
 .SUBCKT INV in out vdd gnd
 M9  vdd in out vdd PMOS_RVT L=2e-08 NFIN=3
 M10 gnd in out gnd NMOS_RVT L=2e-08 NFIN=3 
